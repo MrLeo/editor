@@ -27,6 +27,12 @@ export default new Router({
       name: "ueditor",
       component: () =>
         import(/* webpackChunkName: "ueditor" */ "./views/UEditor.vue")
+    },
+    {
+      path: "/tinymce",
+      name: "tinymce",
+      component: () =>
+        import(/* webpackChunkName: "ueditor" */ "./views/TinyMce.vue")
     }
   ]
 });
