@@ -1,5 +1,11 @@
 <template>
   <div id="app">
+    <p style="text-align:center">
+      源码地址：
+      <a href="https://github.com/MrLeo/editor"
+         target="_blank">https://github.com/MrLeo/editor</a>
+    </p>
+    <br />
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
