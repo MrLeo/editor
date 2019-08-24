@@ -476,7 +476,7 @@
             // xss过滤白名单 名单来源: https://raw.githubusercontent.com/leizongmin/js-xss/master/lib/default.js
             ,
         whitList: {
-            a: ['target', 'href', 'title', 'class', 'style'],
+            a: ['target', 'href', 'title', 'class', 'style', 'name'],
             abbr: ['title', 'class', 'style'],
             address: ['class', 'style'],
             area: ['shape', 'coords', 'href', 'alt'],
@@ -513,7 +513,7 @@
             header: [],
             hr: [],
             i: ['class', 'style'],
-            img: ['style', 'src', 'alt', 'title', 'width', 'height', 'id', '_src', '_url', 'loadingclass', 'class', 'data-latex'],
+            img: ['anchorname', 'word_img', 'style', 'src', 'alt', 'title', 'width', 'height', 'id', '_src', '_url', 'loadingclass', 'class', 'data-latex'],
             ins: ['datetime'],
             li: ['class', 'style'],
             mark: [],

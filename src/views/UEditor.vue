@@ -22,11 +22,14 @@ export default {
         autoHeightEnabled: false, // 编辑器不自动被内容撑高
         initialFrameHeight: 240, // 初始容器高度
         initialFrameWidth: '100%', // 初始容器宽度
-        enableAutoSave: false // 关闭自动保存
+        enableAutoSave: false, // 关闭自动保存
+        autoHeightEnabled: true // 自动长高
       },
       content: ''
     }
   },
+  watch: {},
+  mounted() {},
   methods: {
     ready(edotor) {
       console.log(`🔊: ready -> edotor`, edotor)

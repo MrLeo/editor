@@ -6,7 +6,7 @@
  */
 UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;
 UE.Editor.prototype.getActionUrl = function(action) {
-  console.log(`🔊: UE.Editor.prototype.getActionUrl -> action`, action);
+  console.log(`🔊: UE.Editor.prototype.getActionUrl -> action`, action, this);
   /* 按config中的xxxActionName返回对应的接口地址 */
   if (action == "uploadimage" || action == "uploadscrawl") {
     return "http://a.b.com/upload.php";
